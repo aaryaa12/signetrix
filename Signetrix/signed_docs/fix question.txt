@@ -1,0 +1,3 @@
+1. create a script called backup.sh that compresses your directory arya in the home directory and saves the output to another directory backup also located in the home directory.
+2. use the tar command to create compress archive of a directory name located in the home directory and exclude all the files with log extension.
+1. take standard inout from filed name input.txt and output the file in output.txt in CLI.

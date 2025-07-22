@@ -1,0 +1,45 @@
+PKI Document Signer - Sample Document
+=====================================
+
+This is a sample document that can be used to test the PKI Document Signer application.
+
+Document Details:
+- Created: 2025-07-15
+- Purpose: Testing digital signature functionality
+- Content Type: Plain text
+
+Key Features Demonstrated:
+1. Document content hashing using SHA-256
+2. Digital signature creation using RSA private key
+3. File organization in signed_docs/ folder
+4. Certificate association with signed documents
+
+Security Information:
+- This document will be hashed using SHA-256 algorithm
+- The hash will be signed using RSA-PSS with SHA-256
+- The signature provides integrity and authenticity verification
+- The associated certificate contains the public key for verification
+
+Test Scenarios:
+✓ Basic text document signing
+✓ Multi-line content handling
+✓ Special character support: @#$%^&*()
+✓ File extension preservation
+✓ Signature file generation (.sig)
+✓ Certificate file copying (_cert.pem)
+
+Instructions for Use:
+1. Open the PKI Document Signer application
+2. Select this document file
+3. Choose your private key (.pem file)
+4. Choose your certificate (.pem file)
+5. Click "Sign Document"
+6. Check the signed_docs/ folder for results
+
+Expected Output Files:
+- sample_document.txt (original document copy)
+- sample_document.sig (digital signature)
+- sample_document_cert.pem (associated certificate)
+
+This completes the sample document for testing purposes.
+End of document.
